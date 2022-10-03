@@ -1,5 +1,3 @@
-# angular-crud-Schematics
-
 Build the angular-crud schematic:
 
 cd angular-crud
