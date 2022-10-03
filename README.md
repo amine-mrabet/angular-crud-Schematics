@@ -1,16 +1,5 @@
 # Angular CRUD
 
-[![NPM version][npm-image]][npm-url] [![Build Status][actions-image]][actions-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
-Generating CRUD applications with the Angular CLI and Schematics.
-
-<div>
-  <p><img src="https://i.imgur.com/0MxujmK.png" alt="Scaffold files for CRUD" width="800"></p>
-  <p><img src="https://i.imgur.com/u67zkJh.png" alt="Scaffold List" width="800"></p>
-  <p><img src="https://i.imgur.com/36uZBGV.png" alt="Scaffold Detail View" width="800"></p>
-</div>
-
-
 1. Clone this repository.
 
     ```
