@@ -6,10 +6,7 @@ import { <%= classify(name) %> } from '../<%=dasherize(name)%>';
 @Component({
   selector: 'app-<%=dasherize(name)%>',
   templateUrl: '<%=dasherize(name)%>-list.component.html',
-  styles: [
-    // todo: figure out how to make width dynamic
-    'table { min-width: 600px }',
-  ]
+  styleUrls: ['<%=dasherize(name)%>-list.component.scss']
 })
 export class <%= classify(name) %>ListComponent implements OnInit {
   displayedColumns = [<% for (let field of model.fields) { %>'<%=field.name%>',<% } %>'actions'];

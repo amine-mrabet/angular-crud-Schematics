@@ -20,6 +20,7 @@ export interface Field {
   default: any;
   validation: string;
   show: ShowOptions[] | string;
+  image: boolean;
 }
 
 export type TypeOptions = 'text' | 'number' | 'date';

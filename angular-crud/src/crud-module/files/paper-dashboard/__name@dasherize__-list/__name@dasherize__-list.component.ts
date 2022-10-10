@@ -5,7 +5,8 @@ import { <%= classify(name) %> } from '../<%=dasherize(name)%>';
 
 @Component({
   selector: 'app-<%=dasherize(name)%>',
-  templateUrl: '<%=dasherize(name)%>-list.component.html'
+  templateUrl: '<%=dasherize(name)%>-list.component.html',
+  styleUrls: ['<%=dasherize(name)%>-list.component.scss']
 })
 export class <%= classify(name) %>ListComponent implements OnInit {
 

@@ -21,7 +21,7 @@
 
    ```
    cd demo
-   npm i --no-save ../angular-crud/*.tgz
+   npm i --save ../angular-crud/*.tgz
    # or install the latest released version with: npm install -D angular-crud
    npm install
    ```
@@ -105,6 +105,20 @@ ng g angular-crud:crud-module note --style bootstrap
 ```
 
 Paper Dashboard is the default if you don't specify a `--style` parameter and no Bootstrap or Angular Material dependencies are found in `package.json`.
+
+### Bootstrap Screenshots
+
+<div>
+  <p><img src="https://imgur.com/8KICSze.png" alt="Bootstrap List" width="800"></p>
+  <p><img src="https://imgur.com/VXDoUbB.png" alt="Bootstrap Detail View" width="800"></p>
+</div>
+
+### Material Screenshots
+
+<div>
+  <p><img src="https://imgur.com/f4fUECE.png" alt="Angular Material List" width="800"></p>
+  <p><img src="https://imgur.com/VTviuMS.png" alt="Angular Material Detail View" width="800"></p>
+</div>
 
 ## Extending angular-crud
 

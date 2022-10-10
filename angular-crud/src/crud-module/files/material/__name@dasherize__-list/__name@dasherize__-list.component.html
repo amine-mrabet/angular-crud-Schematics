@@ -23,7 +23,15 @@
     <% for (let field of model.fields) { %>
     <ng-container matColumnDef="<%=field.name%>">
       <mat-header-cell *matHeaderCellDef> <%=field.label%> </mat-header-cell>
-      <mat-cell *matCellDef="let item"> {{item.<%=field.name%><%=(field.control === 'date')? ' | date': '' %>}} </mat-cell>
+      <% if (field.image){ %>
+        <mat-cell *matCellDef="let item"> <img class="fit-picture"
+          [src]="item.<%=field.name%>"> </mat-cell>
+        <% } else { %>
+          <mat-cell *matCellDef="let item"> {{item.<%=field.name%><%=(field.control === 'date')? ' | date': '' %>}} </mat-cell>
+          <% } %>
+      <% } %>
+      
+      
     </ng-container>
     <% } %>
     <ng-container matColumnDef="actions">
